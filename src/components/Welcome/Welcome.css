@@ -1,0 +1,102 @@
+#welcome {
+    position: relative;
+    /*top: 45px;
+    margin-left: 70px;*/
+}
+
+.hidden {
+    visibility: hidden;
+    margin-top: -16px;
+    z-index: 1;
+    color: chartreuse;
+    background-color: darkcyan;
+}
+
+.text   p   .title   {
+    position:   absolute;
+    top:    20px;
+    left: 35.5%;   
+    font-size: 4em;      
+    color:  #aaaaFF;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+}
+
+.text   [class^="text-content"] {
+    position: absolute;
+    color: white;
+    letter-spacing: 2px;
+    left: 0;
+}
+
+.text   .text-content1   {
+    margin-left: 120px;
+    top: 180px;
+    color: yellowgreen;
+    font-size: 1.85em;
+}
+
+.text   .text-content2   {
+    margin-top: 70px;
+    top: 220px;
+    font-size: 1.78em;
+}
+
+.text   .text-content3   {
+    top: 390px;
+    font-family: sans-serif;
+}
+
+/*.text   .text-content-link  {
+    background-color: white;
+    width: 160px;
+    height: 35px;
+    top: 600px;
+    left: 950px;
+    padding-top: 12px;
+    color: rgb(4, 4, 37);
+    text-decoration: none;
+    text-align: center;
+}*/
+
+.images {
+    position: relative;
+}
+
+.bg5    {
+    position: relative;
+    top:-36px;
+    width: 100%;
+    height: 765px;
+    z-index: -1;
+    opacity: 0.9934536;
+}
+
+.image2  {
+    position: relative;
+    top: -500px;
+    left: 950px;
+    margin-top: -900px;
+    width: 300px;
+    transition: transform 1s;
+}
+
+.image2:hover  {
+    transform: rotate(20deg);
+    transition: transform 1s;
+
+}
+
+.image1 {
+    position: relative;
+    top: -380px;
+    width: 200px;
+    transition: transform 2s;
+}
+
+.image1:hover   {
+    transform: translate(100px,0);
+    transition: transform 2s;
+}

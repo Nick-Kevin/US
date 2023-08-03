@@ -1,0 +1,119 @@
+.members    {
+    height: 720px;
+    z-index: 1;
+}
+
+.column-content    {
+    position: relative;
+    width: 100%;
+    top: 80px;
+    height: 720px;
+}
+
+.column-content    .text    .memberstitle  {
+    position: absolute;
+    top: 90px;
+    color: rgb(4, 4, 37);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+}
+
+.column-content    .text    .members-content    .text-ident-line-height {
+    position: absolute;
+    top: 170px;
+    left: 0;
+    text-indent: 20px;
+    line-height: 27px;
+    letter-spacing: 1px;
+}
+
+.instruction    {
+    position: relative;
+    top: -10px;
+}
+
+.instruction    span    {
+    color: rgb(116, 116, 250);
+}
+
+img[class$=img] {
+    position: absolute;
+    top: 345px;
+    width: 180px;
+}
+
+.column-content    .text    .members-content    a   .ricardo-img    {    
+    height: 144px;
+}
+
+.column-content    .text    .members-content    a   .kevin-img    {
+    left: 380px;
+}
+
+.column-content    .text    .members-content    a   .sebastien-img    {
+    left: 612px;
+    height: 144px;
+}
+
+.column-content    .text    .members-content    a   .elie-img    {
+    left: 842px;
+    height: 144px;
+}
+
+.column-content    .text    .members-content    a   .lucas-img    {
+    left: 1072px;
+    height: 144px;
+}
+
+.column-content .text   .text-content-prev  {
+    position: absolute;
+    top: 500px;
+}
+
+#foot {
+    position: relative;
+    top: -30px;
+    background-color: rgb(4, 4, 37);
+    height: 57px;
+    color: white;
+}
+
+#pre{
+    margin-top: -70px;
+}
+
+#foot   .footer-text    {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+#span-text  {
+    font-weight: 300;
+}
+
+.images_members {
+    position: relative;
+}
+
+.images_members .first-img  {
+    position: absolute;
+    top: 210px;
+    left: 530px;
+    width: 100px;
+    z-index: 1;
+}
+
+.images_members .second-img {
+    position: absolute;
+    top: 185px;
+    left: 872px;
+    width: 121px;
+}
+
+img[class$="-img"]:active    {
+    opacity: 0.7;
+}

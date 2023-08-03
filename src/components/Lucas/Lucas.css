@@ -1,0 +1,244 @@
+.lucas  {
+    position: relative;
+    top: 350px;
+    margin-top: -32px;
+    height: 700px;
+    background-color: white;
+    z-index: 1;
+}
+
+.lucas-navigation {
+    position: sticky;
+    background-color: var(--main-color);
+    border-right: 2px solid rgb(4, 4, 37);
+    margin-top: -32px;
+    padding-top: 16px;
+    left: 0;
+    width: 148px;
+    height: 700px;
+    z-index: -1;
+}
+
+.lucas-navigation li  {
+    list-style-type: none;
+}
+
+.lucas-navigation a   {
+    text-decoration: none;
+    color: white;
+    line-height: 35px;
+    font-family: sans-serif;
+}
+
+.lucas-navigation h1  {
+    position: relative;
+    left: -14px;
+    font-style: italic;
+    font-family: serif;
+    font-size: 2em;
+    letter-spacing: 2px;
+    margin-bottom: 100px;
+}
+
+.lucas-navigation p   {
+    margin-left: -20px;
+    font-size: 1.15em;
+}
+
+.e  {
+    color: yellowgreen;
+}
+
+.t  {
+    color: black;
+}
+
+.u  {
+    color: chocolate;
+}
+
+.r   {
+    color: sandybrown;
+}
+
+.n  {
+    color: red;
+}
+
+.lucas-navigation h1:hover    {
+    letter-spacing: 0px;
+    text-shadow: 0 0 10px 10px rgba(0, 0, 0, 1);
+    transition: letter-spacing 0.9s;
+}
+
+.lucas-navigation div a:hover {
+    margin-left: 8px;
+    color: rgba(121, 3, 3, 0.87);
+}
+
+.lucas-navigation div a:active {
+    color: rgb(4, 4, 37);
+}
+
+.lucas-margin    {
+    margin-top: -700px;
+    margin-left: 170px;
+}
+
+.fifth{
+    position: absolute;
+    top: -30px;
+    padding-bottom: 1rem;
+    color: var(--main-color);
+    text-transform: capitalize;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 2.6em;
+}
+
+.lucas    .row-1  {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#luc   {
+    margin-top: 1400px;
+    width: 380px;
+}
+
+.lucas .row-1 .image{
+    flex: 1 1 15rem;
+}
+.lucas .row-1 .image img{
+    position: relative;
+    top: 60px;
+    height: 100%;
+    width: 350px;
+    object-fit:fill;
+   border: 1 rem solid #fff; 
+   border-radius: .5rem;
+   box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+}
+.lucas .row-1 .content{
+    /*flex: 1 1 50rem;*/
+    margin-top: -520px;
+    margin-left: 0px;
+}
+.lucas .row-1 .content h3{
+    color: #333;
+    font-size: 3.5rem;
+}
+.lucas .row-1 .content p{
+    color: #666;
+    font-size: 1em;
+    padding: 15px 0;
+}
+.lucas .row-1 .content .box-container{
+    position: relative;
+    top: 47px;
+    left: -130px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-right: 150px;
+}
+.lucas .row-1 .content .box-container .box{
+    flex-direction: 1 1 20rem;
+}
+.lucas .row-1 .content .box-container .box span{
+    color: var(--main-color);
+}
+
+.lucas    .heading    {
+    position: absolute;
+    top: 480px;
+    color: var(--main-color);
+    font-size: 2em;
+    margin-bottom: -10px;
+    padding-bottom: 0;
+    letter-spacing: 0.1em;   
+}
+
+#yellow {
+    text-transform: capitalize;
+    color: yellowgreen;
+    margin-left: 5px;
+}
+
+.lucas .row-2{
+    position: absolute;
+    top: 550px;
+    display:flex;
+    flex-wrap:wrap;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.lucas .row-2 .skills{
+    flex: 1 1 40rem;
+}
+.lucas .row-2 .skills .progress{
+    padding: 0px 0;
+}
+.lucas .row-2 .box-container{
+    flex: 1 1 40rem;
+}
+.eins, .zwei, .drei{
+    display: inline;
+    float:left;
+    padding-top: .2rem;
+    margin-right: 7rem;
+}
+
+.drei   {
+    position: absolute;
+}
+
+.lucas .row-2 .skills h3{
+    display: flex;
+    justify-content: space-between;
+    padding: .7rem 0;
+    font-size: 1.2rem;
+    color: #111;
+    font-weight: 400;
+}
+.lucas .row-2 .skills h3 span{
+    color: var(--main-color);
+}
+.lucas .row-2 .skills .progress .bar{
+    width: 18rem;
+    background:#ccc ;
+    overflow: hidden;
+    height: 0.9rem;
+    margin: 0;
+    padding: 0;
+    border-radius: 50rem;
+}
+.lucas .row-2 .skills .progress .bar span{
+    display: block;
+    height: 100%;
+}
+
+.lucas .row-2 .skills .eins .bar span{
+    background: rgb(218, 138, 138);
+}
+
+.lucas .row-2 .skills .zwei .bar span{
+    background: #5F0F3E;
+}
+
+.lucas .row-2 .skills .drei .bar span{
+    background: var(--main-color);
+}
+
+.lucas .row-2 .skills .progress:nth-child(1) .bar span{
+    width: 90%;
+}
+.lucas .row-2 .skills .progress:nth-child(2) .bar span{
+    width: 74.7%;
+}
+.lucas .row-2 .skills .progress:nth-child(3) .bar span{
+    width: 30.9%;
+}

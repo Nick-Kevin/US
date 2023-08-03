@@ -1,0 +1,276 @@
+:root{
+    --main-color:#225599;
+}
+
+.ricardo    {
+    position: relative;
+    top: 180px;
+    width: 100%;
+    height: 680px;
+    background-color: white;
+    z-index: 1;
+}
+
+.ricardo-navigation {
+    position: sticky;
+    background-color: var(--main-color);
+    border-right: 2px solid rgb(4, 4, 37);
+    margin-top: -30px;
+    padding-top: 16px;
+    left: 0;
+    width: 148px;
+    height: 700px;
+    z-index: -1;
+}
+
+.ricardo-navigation li  {
+    list-style-type: none;
+}
+
+.ricardo-navigation a   {
+    text-decoration: none;
+    color: white;
+    line-height: 35px;
+    font-family: sans-serif;
+}
+
+.ricardo-navigation h1  {
+    position: relative;
+    left: -14px;
+    font-style: italic;
+    font-family: serif;
+    font-size: 2em;
+    letter-spacing: 2px;
+    margin-bottom: 100px;
+}
+
+.ricardo-navigation p   {
+    margin-left: -20px;
+    font-size: 1.15em;
+}
+
+.e  {
+    color: yellowgreen;
+}
+
+.t  {
+    color: black;
+}
+
+.u  {
+    color: chocolate;
+}
+
+.r   {
+    color: sandybrown;
+}
+
+.n  {
+    color: red;
+}
+
+.ricardo-navigation h1:hover    {
+    letter-spacing: 0px;
+    text-shadow: 0 0 10px 10px rgba(0, 0, 0, 1);
+    transition: letter-spacing 0.9s;
+}
+
+.ricardo-navigation div a:hover {
+    margin-left: 8px;
+    font-weight: 100;
+    font-size: 1em;
+    color: yellowgreen;
+}
+
+.ricardo-navigation div a:active {
+    color: rgb(4, 4, 37);
+}
+
+.margin {
+    position: relative;
+    top: -100%;
+    margin-left: 165px;
+
+}
+
+.first{
+    position: absolute;
+    margin: -35px 0 0 0;
+    color: var(--main-color);
+    text-transform: capitalize;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 2.6em;
+}
+
+.ricardo    .row-1  {
+    position: relative;
+    top: 65px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+#rica   {
+    position: relative;
+    margin-left: -600px;
+    background-color: black;
+    z-index: 1;
+    top: 882px;
+    width: 1px;
+    height: 1px;
+}
+
+#rica2  {
+    width: 380px;
+    border-radius: .5rem;
+    margin-top: 45px;
+}
+
+.ricardo .row-1 .image{
+    /*lex: 1 1 15rem;*/
+    position: static;
+}
+.ricardo .row-1 .image img{
+    width: 100%;
+    /*object-fit:fill;*/
+   border: 1 rem solid #fff; 
+   border-radius: .5rem;
+   box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+}
+.ricardo .row-1 .content{
+    /*flex: 1 1 50rem;*/
+    margin-top: -45px;
+    margin-left: 0px;
+}
+.ricardo .row-1 .content h3{
+    color: #333;
+    font-size: 3.5rem;
+}
+.ricardo .row-1 .content p{
+    color: #666;
+    font-size: 1em;
+    padding: 15px 0;
+}
+.ricardo .row-1 .content .box-container{
+    /*display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;*/
+    margin-right: 150px;
+}
+.ricardo .row-1 .content .box-container .box{
+    flex-direction: 1 1 20rem;
+}
+.ricardo .row-1 .content .box-container .box span{
+    color: var(--main-color);
+}
+
+.ricardo    .heading    {
+    position: absolute;
+    top: 440px;
+    color: var(--main-color);
+    font-size: 2em;
+    margin-bottom: -10px;
+    padding-bottom: 0;
+    letter-spacing: 0.1em;   
+}
+
+#yellow {
+    text-transform: capitalize;
+    color: yellowgreen;
+    margin-left: 5px;
+}
+
+.ricardo .row-2{
+    position: absolute;
+    top: 540px;
+    display:flex;
+    flex-wrap:wrap;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.ricardo .row-2 .skills{
+    flex: 1 1 40rem;
+    margin-top: -30px
+}
+.ricardo .row-2 .skills .progress{
+    padding: 0px 0;
+}
+.ricardo .row-2 .box-container{
+    flex: 1 1 40rem;
+}
+.eins, .zwei, .drei{
+    display: inline;
+    float:left;
+    padding-top: .2rem;
+    margin-right: 7rem;
+}
+
+.drei   {
+    position: absolute;
+}
+
+.ricardo .row-2 .skills h3{
+    display: flex;
+    justify-content: space-between;
+    padding: .7rem 0;
+    font-size: 1.2rem;
+    color: #111;
+    font-weight: 400;
+}
+.ricardo .row-2 .skills h3 span{
+    color: var(--main-color);
+}
+.ricardo .row-2 .skills .progress .bar{
+    width: 18rem;
+    background:#ccc ;
+    overflow: hidden;
+    height: 0.9rem;
+    margin: 0;
+    padding: 0;
+    border-radius: 50rem;
+}
+.ricardo .row-2 .skills .progress .bar span{
+    display: block;
+    height: 100%;
+}
+
+.ricardo .row-2 .skills .eins .bar span{
+    background: blueviolet;
+}
+
+.ricardo .row-2 .skills .zwei .bar span{
+    background: red;
+}
+
+.ricardo .row-2 .skills .drei .bar span{
+    background: yellowgreen
+}
+
+.ricardo .row-2 .skills .progress:nth-child(1) .bar span{
+    width: 75%;
+}
+.ricardo .row-2 .skills .progress:nth-child(2) .bar span{
+    width: 50%;
+}
+.ricardo .row-2 .skills .progress:nth-child(3) .bar span{
+    width: 45%;
+}
+
+.row-1s {
+    position: absolute;
+    display: block;
+    top: 25px;
+    left: 500px;
+    line-height: 45px;
+}
+
+.row-1s .box{
+    margin-left: 260px;
+    margin-top: -365px;
+}
+
+.box-containers div p   span    {
+    color: var(--main-color);
+}

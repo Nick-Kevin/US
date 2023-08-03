@@ -1,0 +1,243 @@
+.sebastien  {
+    position: relative;
+    top: 340px;
+    height: 685px;
+    background-color: white;
+    z-index: 1;
+}
+
+.sebastien-navigation {
+    position: sticky;
+    background-color: var(--main-color);
+    border-right: 2px solid rgb(4, 4, 37);
+    margin-top: -30px;
+    padding-top: 16px;
+    left: 0;
+    width: 148px;
+    height: 700px;
+    z-index: -1;
+}
+
+.sebastien-navigation li  {
+    list-style-type: none;
+}
+
+.sebastien-navigation a   {
+    text-decoration: none;
+    color: white;
+    line-height: 35px;
+    font-family: sans-serif;
+}
+
+.sebastien-navigation h1  {
+    position: relative;
+    left: -14px;
+    font-style: italic;
+    font-family: serif;
+    font-size: 2em;
+    letter-spacing: 2px;
+    margin-bottom: 100px;
+}
+
+.sebastien-navigation p   {
+    margin-left: -20px;
+    font-size: 1.15em;
+}
+
+.e  {
+    color: yellowgreen;
+}
+
+.t  {
+    color: black;
+}
+
+.u  {
+    color: chocolate;
+}
+
+.r   {
+    color: sandybrown;
+}
+
+.n  {
+    color: red;
+}
+
+.sebastien-navigation h1:hover    {
+    letter-spacing: 0px;
+    text-shadow: 0 0 10px 10px rgba(0, 0, 0, 1);
+    transition: letter-spacing 0.9s;
+}
+
+.sebastien-navigation div a:hover {
+    margin-left: 8px;
+    color: rgb(90,20,20);   
+}
+
+.sebastien-navigation div a:active {
+    color: rgb(4, 4, 37);
+}
+
+.sebastien-margin   {
+    margin-left: 170px;
+    margin-top: -654px;
+}
+
+.third{
+    position: absolute;
+    top: -30px;
+    padding-bottom: 1rem;
+    color: var(--main-color);
+    text-transform: capitalize;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 2.6em;
+}
+
+.sebastien    .row-1  {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -125px;
+}
+
+#seba   {
+    margin-top: 1455px;
+    width: 380px;
+}
+
+.sebastien .row-1 .image{
+    flex: 1 1 15rem;
+}
+.sebastien .row-1 .image img{
+    position: relative;
+    top: 80px;
+    height: 100%;
+    width: 350px;
+    object-fit:fill;
+   border: 1 rem solid #fff; 
+   border-radius: .5rem;
+   box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+}
+.sebastien .row-1 .content{
+    /*flex: 1 1 50rem;*/
+    margin-top: -380px;
+    margin-left: 0px;
+}
+.sebastien .row-1 .content h3{
+    color: #333;
+    font-size: 3.5rem;
+}
+.sebastien .row-1 .content p{
+    color: #666;
+    font-size: 1em;
+    padding: 15px 0;
+}
+.sebastien .row-1 .content .box-container{
+    position: relative;
+    top: 19px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-right: 150px;
+}
+.sebastien .row-1 .content .box-container .box{
+    flex-direction: 1 1 20rem;
+}
+.sebastien .row-1 .content .box-container .box span{
+    color: var(--main-color);
+}
+
+.sebastien    .heading    {
+    position: absolute;
+    top: 470px;
+    color: var(--main-color);
+    font-size: 2em;
+    margin-bottom: -10px;
+    padding-bottom: 0;
+    letter-spacing: 0.1em;   
+}
+
+#yellow {
+    text-transform: capitalize;
+    color: yellowgreen;
+    margin-left: 5px;
+}
+
+.sebastien .row-2{
+    position: absolute;
+    top: 535px;
+    display:flex;
+    flex-wrap:wrap;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.sebastien .row-2 .skills{
+    flex: 1 1 40rem;
+}
+.sebastien .row-2 .skills .progress{
+    padding: 0px 0;
+}
+.sebastien .row-2 .box-container{
+    flex: 1 1 40rem;
+}
+.eins, .zwei, .drei{
+    display: inline;
+    float:left;
+    padding-top: .2rem;
+    margin-right: 7rem;
+}
+
+.drei   {
+    position: absolute;
+}
+
+.sebastien .row-2 .skills h3{
+    display: flex;
+    justify-content: space-between;
+    padding: .7rem 0;
+    font-size: 1.2rem;
+    color: #111;
+    font-weight: 400;
+}
+.sebastien .row-2 .skills h3 span{
+    color: var(--main-color);
+}
+.sebastien .row-2 .skills .progress .bar{
+    width: 18rem;
+    background:#ccc ;
+    overflow: hidden;
+    height: 0.9rem;
+    margin: 0;
+    padding: 0;
+    border-radius: 50rem;
+}
+.sebastien .row-2 .skills .progress .bar span{
+    display: block;
+    height: 100%;
+}
+
+.sebastien .row-2 .skills .eins .bar span{
+    background: coral;
+}
+
+.sebastien .row-2 .skills .zwei .bar span{
+    background: #2f2e41;
+}
+
+.sebastien .row-2 .skills .drei .bar span{
+    background: rgb(182, 112, 6)
+}
+
+.sebastien .row-2 .skills .progress:nth-child(1) .bar span{
+    width: 79.5%;
+}
+.sebastien .row-2 .skills .progress:nth-child(2) .bar span{
+    width: 70%;
+}
+.sebastien .row-2 .skills .progress:nth-child(3) .bar span{
+    width: 78%;
+}

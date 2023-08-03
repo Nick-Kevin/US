@@ -1,0 +1,81 @@
+html    {
+    margin-top: 0;
+    margin-right: 0;
+    height: 5000px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+body    {
+    margin: 0;
+}
+
+[class|="text"] {
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+[class~="ident"]   {
+    text-indent: 20px;
+}
+
+[class~="line-height"]  {
+    line-height: 30px;
+}
+
+[class="text"]   a[class="text-next"]    {
+    position: absolute;
+    background-color: white;
+    width: 160px;
+    height: 35px;
+    top: 600px;
+    left: 850px;
+    padding-top: 14px;
+    color: rgb(4, 4, 37);
+    text-decoration: none;
+    text-align: center;
+}
+
+[class="text"]   a[class="text-next"]:hover    {
+    box-shadow:13px 10px 18px 0 rgba(0, 0, 0, 0.7345), -13px -4px 18px 0 rgba(0, 0, 0, 0.7345);
+}
+
+[class="text"]   a[class="text-next"]:active    {
+    background-color: rgb(4, 4, 37);
+    color: white;
+}
+
+[class="text"]   a[class="text-prev"]    {
+    position: absolute;
+    background-color: rgb(4, 4, 37);
+    width: 160px;
+    height: 35px;
+    top: 600px;
+    left: 0px;
+    padding-top: 14px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+[class="text"]   a[class="text-prev"]:hover    {
+    box-shadow: 13px 10px 18px 0 rgba(0, 0, 0, 0.6345), -13px -4px 18px 0 rgba(0, 0, 0, 0.6345);
+}
+
+[class="text"]   a[class="text-prev"]:active   {
+    background-color: white;
+    color: rgb(4, 4, 37);
+}
+
+.edit   {
+    margin-left: -950px;
+    margin-top: 1350px;
+}
+
+.image  {
+    position: relative;
+    top: -500px;
+    left: 950px;
+    margin-top: -900px;
+    width: 300px;    
+}

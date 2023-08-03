@@ -1,0 +1,55 @@
+.column-content-group   {
+    position:   relative;
+    top:    90px;
+    background: linear-gradient(rgb(4, 4, 37), rgb(30, 30, 190));
+    width:  100%;
+    height: 720px;
+}
+
+.text   .text-group1    {
+    position: absolute;
+    color: white;
+    left: 0;
+    top: 90px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.173729em;
+}
+
+.text   .text-group2    {
+    position: absolute;
+    color: white;
+    top: 178px;
+    left: 0;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.text   .text-group3    {
+    position: absolute;
+    color: white;
+    top: 227px;
+    left: 0;
+    letter-spacing: 2px;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.meet   {
+    position: relative;
+    margin-top: 290px;
+    margin-left: 500px;
+    width: 150px;
+}
+
+.share:hover {
+    transform: rotate(40px);
+    transition: transform 2s;
+}
+
+.share  {
+    position: relative;
+    margin-top: 0px;
+    margin-left: 931px;
+    width: 320px;
+}

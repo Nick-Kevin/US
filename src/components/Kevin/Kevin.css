@@ -1,0 +1,248 @@
+.kevin  {
+    position: relative;
+    background-color: white;
+    top: 300px;
+    height: 680px;
+    z-index: 1;
+}
+
+:root{
+    --main-color:#225599;
+}
+
+.kevin-navigation {
+    background-color: var(--main-color);
+    border-right: 2px solid rgb(4, 4, 37);
+    margin-top: -30px;
+    padding-top: 16px;
+    left: 0;
+    width: 148px;
+    height: 700px;
+    z-index: -1;
+}
+
+.kevin-navigation li  {
+    list-style-type: none;
+}
+
+.kevin-navigation a   {
+    text-decoration: none;
+    color: white;
+    line-height: 35px;
+    font-family: sans-serif;
+}
+
+.kevin-navigation h1  {
+    position: relative;
+    left: -14px;
+    font-style: italic;
+    font-family: serif;
+    font-size: 2em;
+    letter-spacing: 2px;
+    margin-bottom: 100px;
+}
+
+.kevin-navigation p   {
+    margin-left: -20px;
+    font-size: 1.15em;
+}
+
+.e  {
+    color: yellowgreen;
+}
+
+.t  {
+    color: black;
+}
+
+.u  {
+    color: chocolate;
+}
+
+.r   {
+    color: sandybrown;
+}
+
+.n  {
+    color: red;
+}
+
+.kevin-navigation h1:hover    {
+    letter-spacing: 0px;
+    text-shadow: 0 0 10px 10px rgba(0, 0, 0, 1);
+    transition: letter-spacing 0.9s;
+}
+
+.kevin-navigation div a:hover {
+    margin-left: 8px;
+    color: black;
+}
+
+.kevin-navigation div a:active {
+    color: rgb(4, 4, 37);
+}
+
+.kevin-margin    {
+    margin-left: 170px;
+    margin-top: -680px;
+}
+
+.second {
+    position: relative;
+    margin: 0 0 0 0;
+    color: var(--main-color);
+    text-transform: capitalize;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 2.6em;
+}
+
+.kevin    .row-1  {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#kev   {
+    margin-top: 1430px;
+    width: 380px;
+}
+
+.kevin .row-1 .image{
+    flex: 1 1 15rem;
+}
+.kevin .row-1 .image img{
+    height: 100%;
+    width: 100%;
+    object-fit:fill;
+   border: 1 rem solid #fff; 
+   border-radius: .5rem;
+   box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+}
+.kevin .row-1 .content{
+    /*flex: 1 1 50rem;*/
+    margin-top: -490px;
+    margin-left: 0px;
+}
+.kevin .row-1 .content h3{
+    color: #333;
+    font-size: 3.5rem;
+}
+.kevin .row-1 .content p{
+    color: #666;
+    font-size: 1em;
+    padding: 15px 0;
+}
+.kevin .row-1 .content .box-container{
+    position: relative;
+    top: 31px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-right: 150px;
+}
+.kevin .row-1 .content .box-container .box{
+    flex-direction: 1 1 20rem;
+}
+.kevin .row-1 .content .box-container .box span{
+    color: var(--main-color);
+}
+
+.first-line {
+    margin-top: 0;
+
+}
+
+.kevin   .heading    {
+    position: absolute;
+    top: 440px;
+    color: var(--main-color);
+    font-size: 2em;
+    margin-bottom: -10px;
+    padding-bottom: 0;
+    letter-spacing: 0.1em;   
+}
+
+#yellow {
+    text-transform: capitalize;
+    color: yellowgreen;
+    margin-left: 5px;
+}
+
+.kevin .row-2{
+    position: absolute;
+    top: 550px;
+    display:flex;
+    flex-wrap:wrap;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.kevin .row-2 .skills{
+    flex: 1 1 40rem;
+    margin-top: -50px;
+}
+.kevin .row-2 .skills .progress{
+    padding: 0px 0;
+}
+.kevin .row-2 .box-container{
+    flex: 1 1 40rem;
+}
+.eins, .zwei, .drei{
+    display: inline;
+    float:left;
+    padding-top: .2rem;
+    margin-right: 7rem;
+}
+
+.drei   {
+    position: absolute;
+}
+
+.kevin .row-2 .skills h3{
+    display: flex;
+    justify-content: space-between;
+    padding: .7rem 0;
+    font-size: 1.2rem;
+    color: #111;
+    font-weight: 400;
+}
+.kevin .row-2 .skills h3 span{
+    color: var(--main-color);
+}
+.kevin .row-2 .skills .progress .bar{
+    width: 18rem;
+    background:#ccc ;
+    overflow: hidden;
+    height: 0.9rem;
+    margin: 0;
+    padding: 0;
+    border-radius: 50rem;
+}
+.kevin .row-2 .skills .progress .bar span{
+    display: block;
+    height: 100%;;
+}
+
+.kevin .row-2 .skills .eins .bar span{
+    background: purple;
+}
+
+.kevin .row-2 .skills .zwei .bar span{
+    background: hotpink;
+}
+
+.kevin .row-2 .skills .drei .bar span{
+    background: black;
+}
+
+.kevin .row-2 .skills .progress:nth-child(1) .bar span{
+    width: 65%;
+}
+.kevin .row-2 .skills .progress:nth-child(2) .bar span{
+    width: 40%;
+}
+.kevin .row-2 .skills .progress:nth-child(3) .bar span{
+    width: 30%;
+}

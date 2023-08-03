@@ -1,0 +1,69 @@
+.column0    {
+    position: fixed;
+    margin-bottom: 0px;
+    z-index: 1;
+    width: 100%;
+    top: -16px;
+    left: 0;
+}
+
+.nav-bar  {
+    list-style-type: none;
+    background: rgb( 5, 5, 75) ;
+    /*background:linear-gradient(to top right,rgba(0, 30, 0, 0.85), white);*/
+    height: 45px;
+}
+
+.nav-bar .nav-list  {
+    float: left;
+}
+
+.nav-bar .nav-list  {
+    position: relative;
+    text-transform: capitalize;
+    font-size: 1,40em;
+    font-family: /*'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,*/ sans-serif;
+    letter-spacing: 2px;
+}
+
+.nav-bar .nav-list [class^="nav-link"]  {
+    position: absolute;
+    width: 33%;
+    top: 4px;
+    display: block;
+    text-decoration: none;
+    color: white;    
+    background-color: rgb( 5, 5, 75);    
+    border: 1px solid #558;
+    border-radius: 2px;  
+    height: 29px;
+}
+
+.nav-bar .nav-list .nav-link1    {
+    left: 40px;
+    padding: 6px 0 0 160px;
+    width: 200px;
+}
+
+.nav-bar .nav-list .nav-link2   {
+    left: 450px;
+    padding: 6px 0 0 160px;
+    width: 200px;
+}
+
+.nav-bar .nav-list .nav-link3   {
+    left: 860px;
+    padding: 6px 0 0 150px;
+    width: 210px;
+}
+
+.nav-bar .nav-list [class^="nav-link"]:hover  {
+    background-color: rgb( 6, 6, 112);
+    border-color: #77a;
+}
+
+.nav-bar .nav-list [class^="nav-link"]:active  {
+    color: rgb( 6, 6, 112);
+    background-color: white;
+    border-color: #77a;
+}
